@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.first{
+    background-image: url(Images/img-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+button{
+    background-color: #ffb703;
+    color: black;
+    height: 80px;
+    width: 80px;
+}
+button:hover{
+    background-color: #ffb8035a;
+    color: #fb8500;
+}
+.sector1{
+    background-color: gray;
+    text-align: center;
+}
+.sector1 h1{
+    text-decoration: wavy;
+}
+.second{
+    background-image: url(Images/img-2.jfif);
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.second .fed{
+    background-image: url(Images/Front\ End\ Developer.webp);
+    height: 200px;
+    width: 500px;
+    background-size: cover;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+}
+.second .dsa{
+    background-image: url(Images/DSA-Python-Image.webp);
+    height: 200px;
+    width: 500px;
+    background-size: cover;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+}
+.first, .second, .third,.forth{
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+}
+.sector2,.sector3,.sector4{
+    background-color: gray;
+    text-align: center;
+}
+.sector2 h2{
+    text-decoration: wavy;
+}
+.third{
+    background-image: url(Images/img-3.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+.forth{
+    background-image: url(Images/img-4.webp);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+footer{
+    background-color: #006d77;
+    color: #edf6f9;
+    text-align: end;
+}
+.front,.data{
+    background-color: #ffb703;
+    text-decoration: none;
+}
+.front:hover, .data:hover{
+    border: 2px black solid;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
